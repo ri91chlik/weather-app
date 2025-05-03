@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(114, 162, 250);
+}
+.container{
+    background-color: #fff;
+    border: 1px solid pink;
+    width: 400px;
+    height: 350px;
+    padding: 20px 100px;
+    
+
+}
+.searchContainer{
+    background-color: aqua;
+    width: 250px;
+    height: 70px;
+}
+input{
+    margin: 20px 25px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+input:hover{
+    background-color: gray;
+    color: white;
+}
