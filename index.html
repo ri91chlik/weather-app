@@ -6,11 +6,23 @@
     <title>Weather App</title>
 </head>
 <body>
+    <!--git add . (adds all files)
+    git add 'filename' (adds a named file)
+    git commit -m 'message' (stages a file)
+    git push -u origin main/master (pushes files to github)-->
     <div class="container">
         <h3>A Weather App</h3>
         <div class="searchContainer">
-            <input type="" placeholder="search">
+            <input type="" placeholder="search" id="input-search">
         </div>
+
+        <div class="app-container">
+            <h4 id="city-name">CITY:</h4>
+            <p id="temp">TEMPERATURE:</p>
+            <P id="condition">CONDITION:</P>
+            <P id="wind">WIND SPEED:</P>
+        </div>
+        <P class="error-message">ERROR:</P>
 
     </div>
 </body>
