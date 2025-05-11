@@ -16,17 +16,38 @@ body{
 
 }
 .searchContainer{
-    background-color: aqua;
-    width: 250px;
-    height: 70px;
+  margin: 20px 0;
+    
 }
-input{
+.weather-container{
+    margin: 60px 0;
+    display: none;
+    
+}
+
+#searchBtn{
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #007bff;
+
+}
+
+#searchBtn:hover{
+    background-color: green;
+    color: white;
+}
+.inputField{
     margin: 20px 25px;
     border-radius: 5px;
+    
     padding: 5px;
     font-size: 15px;
 }
-input:hover{
-    background-color: gray;
-    color: white;
+
+
+.error-message{
+    color: red;
+    font-weight: bold;
+    
 }
